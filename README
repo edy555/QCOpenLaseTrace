@@ -1,0 +1,8 @@
+QCOpenLaseTrace -- OpenLase Trace QuartComposer Custom PlugIn for OSX
+
+required
+* libopenlase.dylib
+* Xcode 4.2
+* QuartzComposer
+* Jack Audio Server for OSX
+

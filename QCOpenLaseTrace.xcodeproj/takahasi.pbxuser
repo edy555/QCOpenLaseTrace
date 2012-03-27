@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8FDF09D4151F23ED0038F434 /* Quartz Composer */;
+		activeTarget = 233E2C640A83C768005A62DF /* Build & Copy */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* QCOpenLaseTrace */,
+		);
+		breakpoints = (
+			8FDF0A98152185620038F434 /* QCOpenLaseTracePlugIn.m:187 */,
+			8FDF0AA5152186140038F434 /* QCOpenLaseTracePlugIn.m:224 */,
+			8FDF0AA7152186390038F434 /* QCOpenLaseTracePlugIn.m:242 */,
+		);
+		codeSenseManager = 8FAF55B0151DA99C002B402B /* Code sense */;
+		executables = (
+			8FDF09D4151F23ED0038F434 /* Quartz Composer */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					246,
+					20,
+					99,
+					70,
+					10,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					378,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					490,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					363,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 354339270;
+			PBXWorkspaceStateSaveDate = 354339270;
+		};
+		perUserProjectItems = {
+			8FDF099A151F1AC30038F434 /* PBXTextBookmark */ = 8FDF099A151F1AC30038F434 /* PBXTextBookmark */;
+			8FDF09B6151F1DB70038F434 /* PlistBookmark */ = 8FDF09B6151F1DB70038F434 /* PlistBookmark */;
+			8FDF0A60152182CB0038F434 /* PBXTextBookmark */ = 8FDF0A60152182CB0038F434 /* PBXTextBookmark */;
+			8FDF0A62152182CB0038F434 /* PBXTextBookmark */ = 8FDF0A62152182CB0038F434 /* PBXTextBookmark */;
+			8FDF0AA9152186590038F434 /* PBXTextBookmark */ = 8FDF0AA9152186590038F434 /* PBXTextBookmark */;
+			8FDF0ACE1521A1E70038F434 /* PBXTextBookmark */ = 8FDF0ACE1521A1E70038F434 /* PBXTextBookmark */;
+			8FDF0AE21521A5850038F434 /* PBXTextBookmark */ = 8FDF0AE21521A5850038F434 /* PBXTextBookmark */;
+			8FDF0AF31521A8780038F434 /* PBXTextBookmark */ = 8FDF0AF31521A8780038F434 /* PBXTextBookmark */;
+			8FDF0AF41521A8780038F434 /* PBXTextBookmark */ = 8FDF0AF41521A8780038F434 /* PBXTextBookmark */;
+			8FDF0B0D1521B8E70038F434 /* PBXTextBookmark */ = 8FDF0B0D1521B8E70038F434 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8FAF55AF151DA99C002B402B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	16AA5C440A7EEE7300888E31 /* QCOpenLaseTrace_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {581, 439}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 50}";
+		};
+	};
+	16BA95400A7EB2EB001E4983 /* QCOpenLaseTracePlugIn.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {581, 391}}";
+			sepNavSelRange = "{79, 11}";
+			sepNavVisRange = "{0, 455}";
+		};
+	};
+	16BA95410A7EB2EB001E4983 /* QCOpenLaseTracePlugIn.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 3302}}";
+			sepNavSelRange = "{4863, 0}";
+			sepNavVisRange = "{4530, 536}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	233E2C640A83C768005A62DF /* Build & Copy */ = {
+		activeExec = 0;
+	};
+	8D5B49AC048680CD000E48DA /* QCOpenLaseTrace */ = {
+		activeExec = 0;
+	};
+	8FAF55AF151DA99C002B402B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8FAF55B0151DA99C002B402B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8FDF092E151ED5A00038F434 /* QCPlugIn.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QCPlugIn.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework/Versions/A/Headers/QCPlugIn.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2518, 6227}}";
+			sepNavSelRange = "{4878, 46}";
+			sepNavVisRange = "{11749, 1218}";
+		};
+	};
+	8FDF099A151F1AC30038F434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 16AA5C440A7EEE7300888E31 /* QCOpenLaseTrace_Prefix.pch */;
+		name = "QCOpenLaseTrace_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 50;
+		vrLoc = 0;
+	};
+	8FDF09B6151F1DB70038F434 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			QCPlugInClasses,
+			0,
+		);
+		name = /Users/takahasi/Projects/QCOpenLaseTrace/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	8FDF09D4151F23ED0038F434 /* Quartz Composer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"~/Projects/QCOpenLaseTrace/Untitled.qtz",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 8FDF09D5151F23ED0038F434 /* Quartz Composer.app */;
+		libgmallocEnabled = 0;
+		name = "Quartz Composer";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+		variableFormatDictionary = {
+		};
+	};
+	8FDF09D5151F23ED0038F434 /* Quartz Composer.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Quartz Composer.app";
+		path = "/Developer/Applications/Quartz Composer.app";
+		sourceTree = "<absolute>";
+	};
+	8FDF0A60152182CB0038F434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 16BA95400A7EB2EB001E4983 /* QCOpenLaseTracePlugIn.h */;
+		name = "QCOpenLaseTracePlugIn.h: 5";
+		rLen = 11;
+		rLoc = 79;
+		rType = 0;
+		vrLen = 455;
+		vrLoc = 0;
+	};
+	8FDF0A62152182CB0038F434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FDF0A63152182CB0038F434 /* NSGeometry.h */;
+		name = "NSGeometry.h: 24";
+		rLen = 23;
+		rLoc = 558;
+		rType = 0;
+		vrLen = 574;
+		vrLoc = 780;
+	};
+	8FDF0A63152182CB0038F434 /* NSGeometry.h */ = {
+		isa = PBXFileReference;
+		name = NSGeometry.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	8FDF0A851521841A0038F434 /* libol.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = libol.c;
+		path = /Users/takahasi/Projects/openlase.cmake/libol/libol.c;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 15522}}";
+			sepNavSelRange = "{6171, 50}";
+			sepNavVisRange = "{5903, 1334}";
+		};
+	};
+	8FDF0A98152185620038F434 /* QCOpenLaseTracePlugIn.m:187 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 16BA95410A7EB2EB001E4983 /* QCOpenLaseTracePlugIn.m */;
+		functionName = "-execute:atTime:withArguments:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 187;
+		location = QCOpenLaseTrace;
+		modificationTime = 354526276.121473;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	8FDF0AA5152186140038F434 /* QCOpenLaseTracePlugIn.m:224 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 16BA95410A7EB2EB001E4983 /* QCOpenLaseTracePlugIn.m */;
+		functionName = "-execute:atTime:withArguments:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 224;
+		location = QCOpenLaseTrace;
+		modificationTime = 354526276.125128;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	8FDF0AA7152186390038F434 /* QCOpenLaseTracePlugIn.m:242 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 16BA95410A7EB2EB001E4983 /* QCOpenLaseTracePlugIn.m */;
+		functionName = "-execute:atTime:withArguments:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 242;
+		location = QCOpenLaseTrace;
+		modificationTime = 354526276.127668;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	8FDF0AA9152186590038F434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FDF0A851521841A0038F434 /* libol.c */;
+		name = "libol.c: 260";
+		rLen = 50;
+		rLoc = 6171;
+		rType = 0;
+		vrLen = 1334;
+		vrLoc = 5903;
+	};
+	8FDF0ACE1521A1E70038F434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FDF0ACF1521A1E70038F434 /* NSDate.h */;
+		name = "NSDate.h: 9";
+		rLen = 31;
+		rLoc = 125;
+		rType = 0;
+		vrLen = 802;
+		vrLoc = 0;
+	};
+	8FDF0ACF1521A1E70038F434 /* NSDate.h */ = {
+		isa = PBXFileReference;
+		name = NSDate.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSDate.h;
+		sourceTree = "<absolute>";
+	};
+	8FDF0AE21521A5850038F434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FDF092E151ED5A00038F434 /* QCPlugIn.h */;
+		name = "QCPlugIn.h: 68";
+		rLen = 46;
+		rLoc = 4878;
+		rType = 0;
+		vrLen = 1218;
+		vrLoc = 11749;
+	};
+	8FDF0AED1521A7AE0038F434 /* CGColorSpace.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGColorSpace.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Headers/CGColorSpace.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 2873}}";
+			sepNavSelRange = "{7349, 19}";
+			sepNavVisRange = "{6640, 1204}";
+		};
+	};
+	8FDF0AF31521A8780038F434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FDF0AED1521A7AE0038F434 /* CGColorSpace.h */;
+		name = "CGColorSpace.h: 166";
+		rLen = 19;
+		rLoc = 7349;
+		rType = 0;
+		vrLen = 1204;
+		vrLoc = 6640;
+	};
+	8FDF0AF41521A8780038F434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 16BA95410A7EB2EB001E4983 /* QCOpenLaseTracePlugIn.m */;
+		name = "QCOpenLaseTracePlugIn.m: 190";
+		rLen = 0;
+		rLoc = 4566;
+		rType = 0;
+		vrLen = 797;
+		vrLoc = 4814;
+	};
+	8FDF0B0D1521B8E70038F434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 16BA95410A7EB2EB001E4983 /* QCOpenLaseTracePlugIn.m */;
+		name = "QCOpenLaseTracePlugIn.m: 163";
+		rLen = 0;
+		rLoc = 4249;
+		rType = 0;
+		vrLen = 1233;
+		vrLoc = 2325;
+	};
+}
