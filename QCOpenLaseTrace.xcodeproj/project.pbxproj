@@ -25,7 +25,7 @@
 		16BA95420A7EB2EB001E4983 /* QCOpenLaseTracePlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA95410A7EB2EB001E4983 /* QCOpenLaseTracePlugIn.m */; };
 		16BA96310A7EB9AC001E4983 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BA96300A7EB9AC001E4983 /* Quartz.framework */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
-		8FDF09B5151F1DA20038F434 /* libopenlase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDF09B4151F1DA20038F434 /* libopenlase.dylib */; };
+		8FB53EBD185F09D600179AAE /* libopenlase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB53EBC185F09D600179AAE /* libopenlase.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		16BA96300A7EB9AC001E4983 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
 		8D5B49B6048680CD000E48DA /* QCOpenLaseTrace.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCOpenLaseTrace.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FDF09B4151F1DA20038F434 /* libopenlase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenlase.dylib; path = ../openlase.cmake/libol/libopenlase.dylib; sourceTree = SOURCE_ROOT; };
+		8FB53EBC185F09D600179AAE /* libopenlase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenlase.dylib; path = /usr/local/lib/libopenlase.dylib; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FDF09B5151F1DA20038F434 /* libopenlase.dylib in Frameworks */,
+				8FB53EBD185F09D600179AAE /* libopenlase.dylib in Frameworks */,
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				16BA96310A7EB9AC001E4983 /* Quartz.framework in Frameworks */,
 			);
@@ -66,10 +66,10 @@
 		089C166AFE841209C02AAC07 /* Quartz Composer Plug In */ = {
 			isa = PBXGroup;
 			children = (
-				8FDF09B4151F1DA20038F434 /* libopenlase.dylib */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
 				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
+				8FB53EBE185F0B7E00179AAE /* Other Libraries */,
 				089C1671FE841209C02AAC07 /* Frameworks */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
 			);
@@ -118,6 +118,14 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		8FB53EBE185F0B7E00179AAE /* Other Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8FB53EBC185F09D600179AAE /* libopenlase.dylib */,
+			);
+			name = "Other Libraries";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +152,8 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "QCOpenLaseTrace" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
@@ -219,18 +229,18 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QCOpenLaseTrace_Prefix.pch;
+				HEADER_SEARCH_PATHS = ../openlase/include;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "${HOME}/Library/Graphics/Quartz Composer Plug-Ins";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					/usr/local/lib,
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../openlase.cmake/build/Development\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../openlase.cmake/libol\"";
 				PRODUCT_NAME = QCOpenLaseTrace;
+				SDKROOT = macosx10.8;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
 				ZERO_LINK = YES;
@@ -243,18 +253,18 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QCOpenLaseTrace_Prefix.pch;
+				HEADER_SEARCH_PATHS = ../openlase/include;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "${HOME}/Library/Graphics/Quartz Composer Plug-Ins";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					/usr/local/lib,
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../openlase.cmake/build/Development\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../openlase.cmake/libol\"";
 				PRODUCT_NAME = QCOpenLaseTrace;
+				SDKROOT = macosx10.8;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
 			};
