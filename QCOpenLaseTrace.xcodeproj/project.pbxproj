@@ -229,16 +229,16 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QCOpenLaseTrace_Prefix.pch;
-				HEADER_SEARCH_PATHS = ../openlase/include;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include/openlase,
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "${HOME}/Library/Graphics/Quartz Composer Plug-Ins";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/lib,
 				);
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../openlase.cmake/build/Development\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../openlase.cmake/libol\"";
 				PRODUCT_NAME = QCOpenLaseTrace;
 				SDKROOT = macosx10.8;
 				SKIP_INSTALL = YES;
@@ -253,16 +253,16 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QCOpenLaseTrace_Prefix.pch;
-				HEADER_SEARCH_PATHS = ../openlase/include;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include/openlase,
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "${HOME}/Library/Graphics/Quartz Composer Plug-Ins";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/lib,
 				);
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../openlase.cmake/build/Development\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../openlase.cmake/libol\"";
 				PRODUCT_NAME = QCOpenLaseTrace;
 				SDKROOT = macosx10.8;
 				SKIP_INSTALL = YES;
@@ -274,8 +274,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				HEADER_SEARCH_PATHS = ../openlase.cmake/include;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -283,8 +283,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				HEADER_SEARCH_PATHS = ../openlase.cmake/include;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
