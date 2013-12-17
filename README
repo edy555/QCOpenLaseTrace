@@ -1,9 +1,22 @@
 QCOpenLaseTrace -- OpenLase Trace QuartComposer Custom PlugIn for OSX
                    based on openlase/tools/playvid.c
 
-required
-* libopenlase.dylib
-* Xcode 3.2
+REQUIREMENT
+
+* Xcode 5 (3.2 or later)
 * QuartzComposer
 * Jack Audio Server for OSX
+* OpenLASE
 
+INSTALL
+
+Recommended using brew to install
+
+$ brew tap edy555/openlase
+$ brew install --HEAD openlase
+$ brew install --HEAD qc-openlase-trace
+
+So you will have QCOpenLaseTrace.plugin 
+in ~/Library/Graphics/Quartz Composer Plug-Ins/ directory.
+
+EOF
